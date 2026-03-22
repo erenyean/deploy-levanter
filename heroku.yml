@@ -1,5 +1,6 @@
 build:
   docker:
-    worker: Dockerfile
+    worker_image: Dockerfile
+
 run:
-  worker: node index.js
+  worker_command: node index.js
